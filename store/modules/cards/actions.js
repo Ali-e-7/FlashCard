@@ -11,13 +11,19 @@ const actions = {
       ...payload,
     });
   },
-  totalGame(_context,payload) {
-    return http.post(`http://localhost:3001/totalGame`,{
+  sendTotalGame(_context, payload) {
+    return http.post(`http://localhost:3001/totalGame`, {
       ...payload
     })
   },
-  getResult(_contex,payload) {
+  getResult(_contex, payload) {
     return http.get('http://localhost:3001/totalGame')
+  },
+  editTotal(_context, payload) {
+    return http.put('http://localhost:3001/totalGame', {
+      ...payload
+    })
   }
+
 };
 export default actions;

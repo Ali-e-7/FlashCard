@@ -10,12 +10,14 @@
         color="blue"
       />
     </div>
+    <Header v-if="$nuxt.$route.name !== 'login' && user" :user="user"></Header>
     <nuxt />
   </div>
 </template>
 
 <script>
 import { mapActions } from "vuex";
+import Header from "../components/header.vue";
 export default {
   data() {
     return {
@@ -23,6 +25,10 @@ export default {
       loading: false,
     };
   },
+  computed: {
+    Header,
+  },
+
   mounted() {
     this.checkIsLoggIn();
   },
@@ -32,9 +38,9 @@ export default {
     }),
     checkIsLoggIn() {
       this.loading = true;
-      this.user = localStorage.getItem("user");
+      this.user = JSON.parse(localStorage.getItem("user"));
 
-      if (this.user == null) {
+      if (!this.user) {
         this.$router.push("/login");
       }
       this.loading = false;

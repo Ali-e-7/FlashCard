@@ -8,9 +8,9 @@
         "title": "تهران"
       },
       "userAnswer": {
-        "id": 3,
-        "title": "مشهد",
-        "correct": 2
+        "id": 1,
+        "title": "تهران",
+        "correct": 1
       },
       "disable": true,
       "answers": [
@@ -35,7 +35,7 @@
           "correct": 2
         }
       ],
-      "state": 2
+      "state": 1
     },
     {
       "id": 2,
@@ -44,8 +44,12 @@
         "id": 4,
         "title": "رم"
       },
-      "userAnswer": null,
-      "disable": false,
+      "userAnswer": {
+        "id": 4,
+        "title": "رم",
+        "correct": 1
+      },
+      "disable": true,
       "answers": [
         {
           "id": 1,
@@ -68,7 +72,7 @@
           "correct": 1
         }
       ],
-      "state": 0
+      "state": 1
     },
     {
       "id": 3,
@@ -77,8 +81,12 @@
         "id": 4,
         "title": "رم"
       },
-      "userAnswer": null,
-      "disable": false,
+      "userAnswer": {
+        "id": 2,
+        "title": "میلان",
+        "correct": 2
+      },
+      "disable": true,
       "answers": [
         {
           "id": 1,
@@ -101,7 +109,7 @@
           "correct": 2
         }
       ],
-      "state": 0
+      "state": 2
     },
     {
       "id": 4,
@@ -110,8 +118,12 @@
         "id": 4,
         "title": "رم"
       },
-      "userAnswer": null,
-      "disable": false,
+      "userAnswer": {
+        "id": 3,
+        "title": "لاتزیو",
+        "correct": 2
+      },
+      "disable": true,
       "answers": [
         {
           "id": 1,
@@ -134,7 +146,7 @@
           "correct": 2
         }
       ],
-      "state": 0
+      "state": 2
     },
     {
       "id": 5,
@@ -143,8 +155,12 @@
         "id": 4,
         "title": "رم"
       },
-      "userAnswer": null,
-      "disable": false,
+      "userAnswer": {
+        "id": 1,
+        "title": "یونتوس",
+        "correct": 2
+      },
+      "disable": true,
       "answers": [
         {
           "id": 1,
@@ -167,7 +183,7 @@
           "correct": 2
         }
       ],
-      "state": 0
+      "state": 2
     },
     {
       "id": 6,
@@ -275,8 +291,12 @@
         "id": 4,
         "title": "رم"
       },
-      "userAnswer": null,
-      "disable": false,
+      "userAnswer": {
+        "id": 1,
+        "title": "ماریجوانا",
+        "correct": 1
+      },
+      "disable": true,
       "answers": [
         {
           "id": 1,
@@ -299,7 +319,7 @@
           "correct": 2
         }
       ],
-      "state": 0
+      "state": 2
     },
     {
       "id": 10,
@@ -308,8 +328,12 @@
         "id": 4,
         "title": "هیچکدام"
       },
-      "userAnswer": null,
-      "disable": false,
+      "userAnswer": {
+        "id": 4,
+        "title": "هیچکدام",
+        "correct": 1
+      },
+      "disable": true,
       "answers": [
         {
           "id": 1,
@@ -332,18 +356,18 @@
           "correct": 1
         }
       ],
-      "state": 0
+      "state": 1
     }
   ],
   "user": {
-    "name": "علی",
+    "name": "علی ",
     "family": "ابراهیمی",
-    "email": "test@test.com"
+    "email": ""
   },
   "totalGame": {
-    "correct": 0,
-    "wrong": 0,
-    "notAnswer": 0,
+    "correct": 3,
+    "wrong": 4,
+    "notAnswer": 3,
     "totalAnswer": 10
   }
 }

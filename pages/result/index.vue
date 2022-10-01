@@ -1,6 +1,8 @@
 <template>
   <v-app>
-    <BarChart :chartAnswer="chartData" />
+    <div class="w-8/12 m-auto">
+      <BarChart :chartAnswer="chartData" />
+    </div>
   </v-app>
 </template>
 
