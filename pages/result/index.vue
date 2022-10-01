@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <BarChart :charData="chartAnswer"/>
+    <BarChart :chartAnswer="chartData" />
   </v-app>
 </template>
 
@@ -12,25 +12,24 @@ export default {
   data() {
     return {
       result: null,
-      chartAnswer: {
-          labels:null,
-          datasets: [ { data: null } ]
-        },
+      chartData: {
+        labels: [],
+        datasets: [{ data: [] }],
+      },
     };
   },
   mounted() {
-    this.getResultAsnwers()
+    this.getResultAsnwers();
   },
   methods: {
     ...mapActions({
       getResult: "cards/getResult",
     }),
-    getResultAsnwers() {
-      this.getResult().then((respone) => {
+    async getResultAsnwers() {
+      await this.getResult().then((respone) => {
         this.result = respone.data;
-        this.chartAnswer.labels = Object.keys(this.result)
-        this.chartAnswer.datasets.data = Object.value(this.result)
-        
+        this.chartData.labels = Object.keys(this.result);
+        this.chartData.datasets[0].data = Object.values(this.result);
       });
     },
   },
