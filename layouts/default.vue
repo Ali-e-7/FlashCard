@@ -2,7 +2,7 @@
   <div>
     <div
       v-if="loading"
-      class="h-full w-full bg-gray-100 absolute !bg-opacity-95"
+      class="h-full w-full bg-[#d2ebf7] absolute !bg-opacity-95"
     >
       <v-progress-circular
         class="!absolute !top-[50vh] !right-[50vw]"
@@ -10,7 +10,11 @@
         color="blue"
       />
     </div>
-    <Header v-if="$nuxt.$route.name !== 'login' && user" :user="user"></Header>
+    <Header
+      class="w-full rounded-bl-3xl rounded-br-3xl fixed top-0"
+      v-if="$nuxt.$route.name !== 'login' && user"
+      :user="user"
+    ></Header>
     <nuxt />
   </div>
 </template>
@@ -39,7 +43,6 @@ export default {
     checkIsLoggIn() {
       this.loading = true;
       this.user = JSON.parse(localStorage.getItem("user"));
-
       if (!this.user) {
         this.$router.push("/login");
       }

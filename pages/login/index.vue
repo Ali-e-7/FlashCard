@@ -27,17 +27,6 @@
             placeholder="ایمیل"
             outlined
           />
-          <!-- <v-radio-group class="flex justify-between" v-model="model.gender" row>
-        <v-radio label="مرد" value="1"></v-radio>
-        <v-radio label="زن" value="2"></v-radio>
-      </v-radio-group> -->
-          <!-- <v-radio-group v-model="model.level" row>
-        <div class="flex justify-around">
-          <v-radio label="سخت" value="1"></v-radio>
-          <v-radio label="متوسط" value="2"></v-radio>
-          <v-radio label="راحت" value="3"></v-radio>
-        </div>
-      </v-radio-group> -->
         </v-form>
 
         <v-divider class="mb-5" />
@@ -95,13 +84,16 @@ export default {
     }),
     startGame() {
       if (this.$refs.form.validate()) {
-        this.loading = true
-      this.logIn(this.model)
-      .then(() => {
-        localStorage.setItem("user", JSON.stringify(this.model));
-        this.$router.push("/");
-      })
-      .finally(()=> {this.loading = false});
+        this.loading = true;
+        this.logIn(this.model)
+          .then(() => {
+            localStorage.removeItem("user");
+            localStorage.setItem("user", JSON.stringify(this.model));
+            this.$router.push("/");
+          })
+          .finally(() => {
+            this.loading = false;
+          });
       }
     },
     clear() {

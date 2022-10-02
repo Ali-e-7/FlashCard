@@ -2,192 +2,124 @@
   "cards": [
     {
       "id": 1,
-      "question": "پایتخت ایران کدام استان است؟",
+      "question": "پدر شعر کلاسیک ایران که بود؟",
       "correctAnswer": {
         "id": 1,
-        "title": "تهران"
+        "title": "رودکی"
       },
-      "userAnswer": {
-        "id": 1,
-        "title": "تهران",
-        "correct": 1
-      },
+      "userAnswer": false,
       "disable": true,
       "answers": [
         {
           "id": 1,
-          "title": "تهران",
-          "correct": 1
+          "title": "رودکی"
         },
         {
           "id": 2,
-          "title": "اصفهان",
-          "correct": 2
+          "title": "حافظ"
         },
         {
           "id": 3,
-          "title": "مشهد",
-          "correct": 2
+          "title": "سعدی"
         },
         {
           "id": 4,
-          "title": "کرمان",
-          "correct": 2
+          "title": "صاحب تبریزی"
         }
       ],
-      "state": 1
+      "state": 0
     },
     {
       "id": 2,
-      "question": "پایتخت ایتالیا کدام استان است؟",
+      "question": "کدام ساز آکورد و ملودی را با هم می نوازد؟",
       "correctAnswer": {
         "id": 4,
-        "title": "رم"
+        "title": "پیانو"
       },
-      "userAnswer": {
-        "id": 4,
-        "title": "رم",
-        "correct": 1
-      },
-      "disable": true,
+      "userAnswer": null,
+      "disable": false,
       "answers": [
         {
           "id": 1,
-          "title": "یونتوس",
-          "correct": 2
+          "title": "گیتار"
         },
         {
           "id": 2,
-          "title": "میلان",
-          "correct": 2
+          "title": "ویالون"
         },
         {
           "id": 3,
-          "title": "لاتزیو",
-          "correct": 2
+          "title": "سه تار"
         },
         {
           "id": 4,
-          "title": "رم",
-          "correct": 1
+          "title": "پیانو"
         }
       ],
-      "state": 1
+      "state": 0
     },
     {
       "id": 3,
-      "question": "پایتخت ایتالیا کدام استان است؟",
+      "question": "کدام یک ورزش رزمی نمی باشد",
       "correctAnswer": {
-        "id": 4,
-        "title": "رم"
-      },
-      "userAnswer": {
         "id": 2,
-        "title": "میلان",
-        "correct": 2
+        "title": "اسکواش"
       },
-      "disable": true,
+      "userAnswer": null,
+      "disable": false,
       "answers": [
         {
           "id": 1,
-          "title": "یونتوس",
+          "title": "جودو",
           "correct": 1
         },
         {
           "id": 2,
-          "title": "میلان",
-          "correct": 2
+          "title": "اسکواش"
         },
         {
           "id": 3,
-          "title": "لاتزیو",
-          "correct": 2
+          "title": "کوراش"
         },
         {
           "id": 4,
-          "title": "رم",
-          "correct": 2
+          "title": "موی تای"
         }
       ],
-      "state": 2
+      "state": 0
     },
     {
       "id": 4,
-      "question": "پایتخت ایتالیا کدام استان است؟",
+      "question": "میزبان مسابقات والیبال قهرمان مردان جهان سال 2018؟",
       "correctAnswer": {
-        "id": 4,
+        "id": 3,
         "title": "رم"
       },
-      "userAnswer": {
-        "id": 3,
-        "title": "لاتزیو",
-        "correct": 2
-      },
-      "disable": true,
+      "userAnswer": null,
+      "disable": false,
       "answers": [
         {
           "id": 1,
-          "title": "یونتوس",
-          "correct": 2
+          "title": "بلغارستان،ژاپن"
         },
         {
           "id": 2,
-          "title": "میلان",
-          "correct": 1
+          "title": "ایتالیا،ژاپن"
         },
         {
           "id": 3,
-          "title": "لاتزیو",
-          "correct": 2
+          "title": "بلغارستان،ایتالیا"
         },
         {
           "id": 4,
-          "title": "رم",
-          "correct": 2
+          "title": "هیچکدام"
         }
       ],
-      "state": 2
+      "state": 0
     },
     {
       "id": 5,
-      "question": "پایتخت ایتالیا کدام استان است؟",
-      "correctAnswer": {
-        "id": 4,
-        "title": "رم"
-      },
-      "userAnswer": {
-        "id": 1,
-        "title": "یونتوس",
-        "correct": 2
-      },
-      "disable": true,
-      "answers": [
-        {
-          "id": 1,
-          "title": "یونتوس",
-          "correct": 2
-        },
-        {
-          "id": 2,
-          "title": "میلان",
-          "correct": 2
-        },
-        {
-          "id": 3,
-          "title": "لاتزیو",
-          "correct": 1
-        },
-        {
-          "id": 4,
-          "title": "رم",
-          "correct": 2
-        }
-      ],
-      "state": 2
-    },
-    {
-      "id": 6,
-      "question": "پایتخت ایتالیا کدام استان است؟",
+      "question": "لانس آرمسترانگ در کدام رشته ورزشی فعالیت داشت",
       "correctAnswer": {
         "id": 4,
         "title": "رم"
@@ -197,32 +129,57 @@
       "answers": [
         {
           "id": 1,
-          "title": "یونتوس",
-          "correct": 2
+          "title": "کیو کوشینگ"
         },
         {
           "id": 2,
-          "title": "میلان",
-          "correct": 2
+          "title": "اسب سواری"
         },
         {
           "id": 3,
-          "title": "لاتزیو",
-          "correct": 2
+          "title": "بسکتبال"
         },
         {
           "id": 4,
-          "title": "رم",
-          "correct": 1
+          "title": "دوچرخه سواری"
+        }
+      ],
+      "state": 0
+    },
+    {
+      "id": 6,
+      "question": "?how’s your new job going so far so good معنی جمله مشخص شده کدام گزینه می باشد",
+      "correctAnswer": {
+        "id": 4,
+        "title": "کار جدید شما تا این لحظه چطور پیش رفته است؟"
+      },
+      "userAnswer": null,
+      "disable": false,
+      "answers": [
+        {
+          "id": 1,
+          "title": "کار جدید شما تا این لحظه چطور هست؟"
+        },
+        {
+          "id": 2,
+          "title": "کار جدید شما تا این لحظه چطور بود؟"
+        },
+        {
+          "id": 3,
+          "title": "کار جدید شما تا این لحظه چطور پیش خواهد رفت؟"
+        },
+        {
+          "id": 4,
+          "title": "کار جدید شما تا این لحظه چطور پیش رفته است؟"
         }
       ],
       "state": 0
     },
     {
       "id": 7,
-      "question": "پایتخت ایتالیا کدام استان است؟",
+      "question": "what’s the meaning of hurt?",
       "correctAnswer": {
-        "id": 4,
+        "id": 3,
         "title": "رم"
       },
       "userAnswer": null,
@@ -230,144 +187,120 @@
       "answers": [
         {
           "id": 1,
-          "title": "یونتوس",
-          "correct": 1
+          "title": "قلب"
         },
         {
           "id": 2,
-          "title": "میلان",
-          "correct": 2
+          "title": "مغز"
         },
         {
           "id": 3,
-          "title": "لاتزیو",
-          "correct": 2
+          "title": "صدمه"
         },
         {
           "id": 4,
-          "title": "رم",
-          "correct": 2
+          "title": "بهبود"
         }
       ],
       "state": 0
     },
     {
       "id": 8,
-      "question": "پایتخت ایتالیا کدام استان است؟",
+      "question": "what is the meaning of diamond?",
       "correctAnswer": {
-        "id": 4,
-        "title": "رم"
+        "id": 1,
+        "title": "الماس"
       },
       "userAnswer": null,
       "disable": false,
       "answers": [
         {
           "id": 1,
-          "title": "یونتوس",
-          "correct": 2
+          "title": "الماس"
         },
         {
           "id": 2,
-          "title": "میلان",
-          "correct": 1
+          "title": "درخشان"
         },
         {
           "id": 3,
-          "title": "لاتزیو",
-          "correct": 2
+          "title": "برنز"
         },
         {
           "id": 4,
-          "title": "رم",
-          "correct": 2
+          "title": "طلا"
         }
       ],
       "state": 0
     },
     {
       "id": 9,
-      "question": "ملوان زبل برای گرفتن انرژی از چه گیاهی استفاده میکرد؟",
+      "question": "شهرستان سرباز متعلق به کدام استان کشورمان می باشد؟",
       "correctAnswer": {
         "id": 4,
-        "title": "رم"
+        "title": "سیستان و بلوچستان"
       },
-      "userAnswer": {
-        "id": 1,
-        "title": "ماریجوانا",
-        "correct": 1
-      },
-      "disable": true,
+      "userAnswer": null,
+      "disable": false,
       "answers": [
         {
           "id": 1,
-          "title": "ماریجوانا",
-          "correct": 1
+          "title": "اراک"
         },
         {
           "id": 2,
-          "title": "جعفری",
-          "correct": 2
+          "title": "اصفهان"
         },
         {
           "id": 3,
-          "title": "گیشنیز",
-          "correct": 2
+          "title": "کردستان"
         },
         {
           "id": 4,
-          "title": "شنبلیله",
-          "correct": 2
+          "title": "سیستان و بلوچستان"
         }
       ],
-      "state": 2
+      "state": 0
     },
     {
       "id": 10,
-      "question": "در کارتون فوتبالیست ها مربی سوباسا چه نسبتی با او داشت؟",
+      "question": "کدام شهر به شهر باران های نقره ای معروف است",
       "correctAnswer": {
         "id": 4,
-        "title": "هیچکدام"
+        "title": "رشت"
       },
-      "userAnswer": {
-        "id": 4,
-        "title": "هیچکدام",
-        "correct": 1
-      },
-      "disable": true,
+      "userAnswer": null,
+      "disable": false,
       "answers": [
         {
           "id": 1,
-          "title": "پدر ",
-          "correct": 2
+          "title": "اردبیل "
         },
         {
           "id": 2,
-          "title": "عمو",
-          "correct": 2
+          "title": "گلستان"
         },
         {
           "id": 3,
-          "title": "دایی",
-          "correct": 2
+          "title": "ساری"
         },
         {
           "id": 4,
-          "title": "هیچکدام",
-          "correct": 1
+          "title": "رشت"
         }
       ],
-      "state": 1
+      "state": 0
     }
   ],
   "user": {
-    "name": "علی ",
-    "family": "ابراهیمی",
+    "name": "asdasd",
+    "family": "asdasdasd",
     "email": ""
   },
   "totalGame": {
-    "correct": 3,
-    "wrong": 4,
-    "notAnswer": 3,
+    "correct": 1,
+    "wrong": 0,
+    "notAnswer": 9,
     "totalAnswer": 10
   }
 }
