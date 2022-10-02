@@ -293,14 +293,14 @@
     }
   ],
   "user": {
-    "name": "asdasd",
-    "family": "asdasdasd",
+    "name": "علی رضا",
+    "family": "رضایی",
     "email": ""
   },
   "totalGame": {
-    "correct": 1,
+    "correct": 0,
     "wrong": 0,
-    "notAnswer": 9,
+    "notAnswer": 10,
     "totalAnswer": 10
   }
 }

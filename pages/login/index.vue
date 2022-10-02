@@ -1,53 +1,51 @@
 <template>
-  <div class="bg-gray-800 h-[100vh] flex justify-center items-center">
-    <client-only>
-      <div
-        class="w-full md:w-6/12 lg:w-4/12 bg-white text-blue-900 rounded-md p-3"
-      >
-        <h1 class="text-xl font-bold">ثبت نام کاربر</h1>
-        <v-divider class="my-5" />
-        <v-form ref="form" v-model="valid" lazy-validation>
-          <v-text-field
-            v-model="model.firstName"
-            placeholder="نام"
-            outlined
-            :rules="nameRules"
-            dense
-          />
-          <v-text-field
-            v-model="model.lastName"
-            placeholder="نام خانوادگی"
-            outlined
-            :rules="familyRules"
-            dense
-          />
-          <v-text-field
-            v-model="model.email"
-            dense
-            placeholder="ایمیل"
-            outlined
-          />
-        </v-form>
+  <div class="h-[100vh] flex justify-center items-center">
+    <div
+      class="w-full md:w-6/12 lg:w-3/12 bg-white text-blue-900 rounded-md p-3"
+    >
+      <h1 class="text-xl font-bold">ثبت نام کاربر</h1>
+      <v-divider class="my-5" />
+      <v-form ref="form" v-model="valid" lazy-validation>
+        <v-text-field
+          v-model="model.firstName"
+          placeholder="نام"
+          outlined
+          :rules="nameRules"
+          dense
+        />
+        <v-text-field
+          v-model="model.lastName"
+          placeholder="نام خانوادگی"
+          outlined
+          :rules="familyRules"
+          dense
+        />
+        <v-text-field
+          v-model="model.email"
+          dense
+          placeholder="ایمیل"
+          outlined
+        />
+      </v-form>
 
-        <v-divider class="mb-5" />
-        <div class="flex justify-between">
-          <v-btn
-            class="mb-2 !bg-gray-100 !text-gray-700 w-3/12"
-            color="blue"
-            outlined
-            @click="clear"
-            >پاک سازی فرم</v-btn
-          >
-          <v-btn
-            class="mb-2 !bg-green-100 !text-green-700 w-3/12"
-            color="blue"
-            outlined
-            @click="startGame"
-            >شروع</v-btn
-          >
-        </div>
+      <v-divider class="mb-5" />
+      <div class="flex justify-between">
+        <v-btn
+          class="mb-2 !bg-gray-100 !text-gray-700 w-3/12"
+          color="blue"
+          outlined
+          @click="clear"
+          >پاک سازی فرم</v-btn
+        >
+        <v-btn
+          class="mb-2 !bg-green-100 !text-green-700 w-3/12"
+          color="blue"
+          outlined
+          @click="startGame"
+          >شروع</v-btn
+        >
       </div>
-    </client-only>
+    </div>
   </div>
 </template>
 

@@ -1,9 +1,6 @@
 <template>
-  <div>
-    <div
-      v-if="loading"
-      class="h-full w-full bg-[#d2ebf7] absolute !bg-opacity-95"
-    >
+  <div class="!bg-[#b9ab9b] !bg-opacity-95">
+    <div v-if="loading" class="h-full w-full absolute">
       <v-progress-circular
         class="!absolute !top-[50vh] !right-[50vw]"
         indeterminate

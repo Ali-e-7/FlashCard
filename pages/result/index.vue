@@ -1,9 +1,9 @@
 <template>
-  <v-app>
-    <div class="w-8/12 m-auto">
+  <div class="h-[100vh] flex justify-center items-center">
+    <div class="w-8/12">
       <BarChart :chartAnswer="chartData" />
     </div>
-  </v-app>
+  </div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="!bg-[#d2ebf7] py-3">
+  <div class="!bg-[#dfdfdf] py-3">
     <div class="contaner flex justify-around">
       <h3 class="!text-gray-500">{{ user.firstName }} {{ user.lastName }}</h3>
       <div v-if="$nuxt.$route === 'result'">نتایج مسابقه</div>

@@ -67,11 +67,12 @@
             ><v-btn
               block
               outlined
-              class="!text-white mx-5 rounded-2xl"
-              @click="next(pagination.page + 1)"
-              >بعدی</v-btn
+              class="!text-white mx-5"
+              @click="next(pagination.page - 1)"
+              >قبلی</v-btn
             ></v-col
           >
+
           <v-col cols="2"
             ><v-btn
               block
@@ -85,9 +86,9 @@
             ><v-btn
               block
               outlined
-              class="!text-white mx-5"
-              @click="next(pagination.page - 1)"
-              >قبلی</v-btn
+              class="!text-white mx-5 rounded-2xl"
+              @click="next(pagination.page + 1)"
+              >بعدی</v-btn
             ></v-col
           >
         </v-row>
